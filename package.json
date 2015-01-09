@@ -1,0 +1,36 @@
+{
+  "name": "breadbox",
+  "version": "0.0.0",
+  "description": "Sandbox for my Arduino Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boneskull/breadbox"
+  },
+  "keywords": [
+    "arduino"
+  ],
+  "author": "Christopher Hiller <chiller@badwing.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boneskull/breadbox/issues"
+  },
+  "homepage": "https://github.com/boneskull/breadbox",
+  "dependencies": {
+    "bluebird": "^2.6.2",
+    "bluebird-q": "^1.0.2",
+    "johnny-five": "^0.8.37",
+    "lodash-node": "^2.4.1",
+    "q": "^1.1.2",
+    "q-foreach": "0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^0.11.0",
+    "eslint-json": "^1.0.0",
+    "eslint-plugin-extend": "^0.1.1",
+    "eslint-stylish": "^0.2.0"
+  }
+}

@@ -1,0 +1,33 @@
+---
+  env:
+    node: true
+  plugins:
+    - extend
+  rules:
+    quotes: single
+    no-underscore-dangle: false
+    max-len: 80
+    max-params: 4
+    no-extra-parens: true
+    no-reserved-keys: true
+    valid-jsdoc: true
+    no-else-return: true
+    no-floating-decimal: true
+    no-self-compare: true
+    no-void: true
+    radix: true
+    vars-on-top: true
+    wrap-iife: true
+    brace-style: true
+    comma-style: last
+    func-names: true
+    consistent-this: self
+    no-multiple-empty-lines:
+      max: 2
+    no-nested-ternary: true
+    space-after-keywords: always
+    space-before-blocks: always
+    spaced-line-comment: always
+  globals:
+    Promise: true
+
