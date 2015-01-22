@@ -28,6 +28,8 @@
     space-after-keywords: always
     space-before-blocks: always
     spaced-line-comment: always
+    no-return-assign: false
+    no-use-before-define: false
   globals:
     Promise: true
 
