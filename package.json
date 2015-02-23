@@ -2,7 +2,7 @@
   "name": "breadbox",
   "version": "0.0.0",
   "description": "Sandbox for my Arduino Projects",
-  "main": "index.js",
+  "main": "lib/sketch",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,10 +25,16 @@
     "johnny-five": "^0.8.37",
     "lirc_node": "0.0.1",
     "lodash-node": "^2.4.1",
-    "octalbonescript": "^0.4.12"
+    "log": "^1.4.0",
+    "octalbonescript": "^0.4.12",
+    "random-js": "^1.0.4",
+    "yargs": "^1.3.3"
   },
   "devDependencies": {
     "eslint": "^0.11.0",
     "eslint-plugin-extend": "^0.1.1"
+  },
+  "bin": {
+    "sketchy": "bin/sketchy.js"
   }
 }
